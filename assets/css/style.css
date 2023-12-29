@@ -5,15 +5,15 @@
 /* +++++++++++++++++++++++++++++++++++++++ DEBUT CSS PAGE INDEX.HTML +++++++++++++++++++++++++++++++++++++++++++ */
 .nav {
 
-    display: flex;
-    justify-content:space-between;
+   
     text-align: center;
     border: solid 1px black;
 }
 .menu_burger {
-
+  
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    margin: 3%;
    font-size: 80%;
 
@@ -22,7 +22,7 @@
     width: 50%;
     text-align:center;
     padding-top: 4%;
-    font-family: Dancing Script ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .sousDivHeader {
 margin: 3%;
@@ -37,10 +37,7 @@ margin: 3%;
     color: #ffffff;
     padding: 1em;
     text-align: center;
-    @font-face {
-        font-family: "Roboto";
-        src: url();
-    }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
 .imgHeader{
@@ -56,6 +53,7 @@ margin: 3%;
     padding: 3%;
     display: block;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -74,6 +72,7 @@ margin: 3%;
     padding: 3%;
     display: block;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .imgJournePizza {
     border-radius: 50%;
@@ -84,6 +83,7 @@ margin: 3%;
 .footer {
     display: block;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btnCommandant {
