@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+}
+/* +++++++++++++++++++++++++++++++++++++++ DEBUT CSS PAGE INDEX.HTML +++++++++++++++++++++++++++++++++++++++++++ */
+.nav {
+
+   
+    text-align: center;
+    border: solid 1px black;
+}
+.menu_burger {
+  
+   display: flex;
+   justify-content: space-between;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin: 3%;
+   font-size: 80%;
+
+}
+.titre {
+    width: 50%;
+    text-align:center;
+    padding-top: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sousDivHeader {
+margin: 3%;
+    text-align:left;
+}
+
+.divHeader {
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.imgHeader{
+
+    width: 90%;
+}
+.jeuGourmand {
+
+    background-color: #222831;
+    border: solid black;
+    border-radius: 5%;
+    margin: 3%;
+    padding: 3%;
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.imgJeuGourmand {
+
+    border-radius: 50%;
+    width: 30%;
+    border-color: #ffbe33 5% solid;
+}
+
+.journéePizza {
+    background-color: #222831;
+    border: solid black;
+    border-radius: 5%;
+    margin: 3%;
+    padding: 3%;
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imgJournePizza {
+    border-radius: 50%;
+    width: 30%;
+    border-color: #ffbe33 ;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnCommandant {
+    width: 50%;
+    height: 10%;
+    background-color: #ffbe33;
+    border: solid ;
+    border-radius: 10%;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++ FIN CSS PAGE INDEX.HTML ++++++++++++++++++++++++++++++++++++++++++++++ */
+
