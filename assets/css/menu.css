@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.titrePrincipal {
+
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    font-family: dancing script;
+}
+.delicePizza {
+    background-color: #222831;
+    border: solid black;
+    border-radius: 5%;
+    margin: 3%;
+    padding: 3%;
+    display: block;
+   
+
+}
+.imgPizza {
+    border-radius: 50%;
+    width: 30%;
+    border-color: #ffbe33 5% solid;
+    text-align: center;
+
+}
+.footerPizza {
+    display: flex;
+    justify-content:space-around;
+}
+.delicePates {
+
+    background-color: #222831;
+    border: solid black;
+    border-radius: 5%;
+    margin: 3%;
+    padding: 3%;
+    display: block;
+}
+
+.imgPates {
+    border-radius: 50%;
+    width: 30%;
+    border-color: #ffbe33 5% solid;
+    text-align: center;
+}
+
+.footPates {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.aProposDe {
+    background-color: #222831;
+    padding: 3%;
+    display: block;
+     
+}
