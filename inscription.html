@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/inscription.css">
+    <title>inscription</title>
+</head>
+<body>
+    
+    <div class="divHeader">
+        <div class="sousDivHeader">
+          <nav class="nav">
+            <div class="menu_burger">
+              <div><a href="./menuss.html">Menus</a></div>
+              <div>
+                <a href="../projet-restaurant/reservation.html"
+                  >Reserver une table</a
+                >
+              </div>
+              <div>
+                <a href="../projet-restaurant/nousContacter.html"
+                  >Nous contacter</a
+                >
+              </div>
+              <div><a href="./index.html"> retour page principale</a></div>
+            </div>
+          </nav>
+          <h1 class="titre_header">LebonGOUT</h1>
+          <p>A portée de mains</p>
+        </div>
+      </div>
+    
+    <form action="/register" method="post">
+        <fieldset class="fieldset">
+        <h3>Inscription</h3>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="newUsername">Prénom :</label>
+        <input type="text" id="newUsername" name="newUsername" required>
+
+        <label for="newPassword"> Mot de passe :</label>
+        <input type="password" id="newPassword" name="newPassword" required>
+
+        <label for="newPassword"> Saisir à nouveau le mot de passe :</label>
+        <input type="password" id="newPasswordBis" name="newPasswordBis" pattern="[0-9]{10}">
+
+        <label for="phone"> Téléphone :</label>
+        <input type="number" id="telephone" name="telephone" required>
+
+        <label for="adresse"> Adresse :</label>
+        <input type="text" id="adresse" name="adresse" required>
+
+        <label for="ville"> Ville :</label>
+        <input type="text" id="ville" name="ville" required>
+
+        <h2>Préference culinaires</h2>
+
+        <label for="vegetarian">Végétarien :</label>
+        <input type="checkbox" id="vegetarian" name="preferences[]" value="vegetarian">
+<br>
+        <label for="flexitarian">Fléxitarien :</label>
+        <input type="checkbox" id="flexitarian" name="preferences[]" value="flexitarian">
+<br>
+        <label for="Halal">Halal :</label>
+        <input type="checkbox" id="Halal" name="preferences[]" value="Halal">
+<br>
+        <label for="Sans gluten">Sans gluten :</label>
+        <input type="checkbox" id="Sans gluten" name="preferences[]" value="Sans gluten">
+    
+    
+    </fieldset>
+    <input type="submit" value="S'inscrire">
+      </form>
+
+</body>
+</html>
