@@ -3,9 +3,13 @@
     margin: 0; 
 }
 /* +++++++++++++++++++++++++++++++++++++++ DEBUT CSS PAGE INDEX.HTML +++++++++++++++++++++++++++++++++++++++++++ */
+main
+{
+    background-color: #e88a16;
+}
 .nav {
 
-   
+   font-size: 130%;
     text-align: center;
     border: solid 1px black;
 }
@@ -21,7 +25,7 @@
 .titre {
     width: 50%;
     text-align:center;
-    padding-top: 4%;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .sousDivHeader {
@@ -44,40 +48,21 @@ margin: 3%;
 
     width: 90%;
 }
-.jeuGourmand {
-
-    background-color: #222831;
-    border: solid black;
-    border-radius: 5%;
-    margin: 3%;
+.divPromo {
+    
+    margin: 5%;
     padding: 3%;
-    display: block;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    flex-wrap:nowrap;
+    font-size: 110%;
+  }
 
-}
-
-.imgJeuGourmand {
-
-    border-radius: 50%;
-    width: 30%;
-    border-color: #ffbe33 5% solid;
-}
-
-.journéePizza {
-    background-color: #222831;
-    border: solid black;
-    border-radius: 5%;
-    margin: 3%;
-    padding: 3%;
-    display: block;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .imgJournePizza {
     border-radius: 50%;
-    width: 30%;
-    border-color: #ffbe33 ;
+    width: 100%;
+    align-content: center ;
+   
 }
 
 .footer {

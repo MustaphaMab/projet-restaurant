@@ -1,63 +1,105 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nav {
+  font-size: 130%;
+  text-align: center;
+}
+.menu_burger {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 3%;
+  font-size: 80%;
+  color: white;
+}
+.titrePartie {
+  margin: 2%;
+  margin-top: 5%;
+  border-style: double;
+}
+.divHeader {
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 1em;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.sousDivHeader {
+  margin: 3%;
+  text-align: left;
 }
 
 .titrePrincipal {
-
-    text-align: center;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 p {
-    font-size: 20px;
-    font-family: dancing script;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.delicePizza {
-    background-color: #222831;
-    border: solid black;
-    border-radius: 5%;
-    margin: 3%;
-    padding: 3%;
-    display: block;
-   
+.delicePoulet {
+  background-color: #9abcf3;
+  margin: 0%;
+  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.poulet {
+  margin: 5%;
+}
+.delicePoissons {
+  background-color: #9abcf3;
+  margin: 0%;
+  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.poisson {
+  margin: 5%;
+}
 
-}
 .imgPizza {
-    border-radius: 50%;
-    width: 30%;
-    border-color: #ffbe33 5% solid;
-    text-align: center;
-
+  border-radius: 50%;
+  width: 30%;
+  border-color: #ffbe33 5% solid;
+  text-align: center;
 }
 .footerPizza {
-    display: flex;
-    justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .delicePates {
-
-    background-color: #222831;
-    border: solid black;
-    border-radius: 5%;
-    margin: 3%;
-    padding: 3%;
-    display: block;
+  background-color: #222831;
+  border: solid black;
+  border-radius: 5%;
+  margin: 3%;
+  padding: 3%;
+  display: block;
 }
 
 .imgPates {
-    border-radius: 50%;
-    width: 30%;
-    border-color: #ffbe33 5% solid;
-    text-align: center;
+  border-radius: 50%;
+  width: 30%;
+  border-color: #ffbe33 5% solid;
+  text-align: center;
 }
 
 .footPates {
-    
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .aProposDe {
-    background-color: #222831;
-    padding: 3%;
-    display: block;
-     
+  background-color: #222831;
+  padding: 3%;
+  display: block;
 }
