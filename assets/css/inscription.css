@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav {
+    font-size: 130%;
+    text-align: center;
+  }
+  .menu_burger {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 3%;
+    font-size: 80%;
+    color: white;
+  }
+
+  .divHeader {
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .sousDivHeader {
+    margin: 3%;
+    text-align: left;
+  }
+  
+
+h3 {
+
+    font-size: 200%;
+    text-align: center;
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+   }
+   input[type="submit"]:hover {
+    background-color: #d2a80f;
+  }
+  input {
+    width: 100%;
+  }
