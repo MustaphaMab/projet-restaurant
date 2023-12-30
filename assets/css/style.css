@@ -98,5 +98,15 @@ form {
   input[type="submit"]:hover {
     background-color: #e88a16;
   }
+
+  label {
+
+    display: block;
+    
+  }
+  form {
+    text-align: center;
+    margin-left: 15%;
+  }
 /* +++++++++++++++++++++++++++++++++++++++++++++ FIN CSS PAGE INDEX.HTML ++++++++++++++++++++++++++++++++++++++++++++++ */
 
