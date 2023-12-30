@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reservation.css">
     <title>Réservations</title>
 </head>
+
 <body>
-    <h1>Reservations</h1>
+    <!-- ********************************** barre navigation  -->
+   <header>
+    <div class="divHeader">
+        <div class="sousDivHeader">
+            <nav class="nav">
+                <div class="menu_burger">
+                    <div><a href="./index.html">Acceuil</a></div>
+                    <div><a href="./menuss.html">Menus</a></div>
+                    <div><a href="./contact.html">Contacts</a></div>
+                    <div><a href="./inscription.html">Inscription</a></div>
+                </div>
+            </nav>
+            <h1 class="titre_header">LebonGOUT</h1>
+            <p>A portée de mains</p>
+        </div>
+    </div>
+</header>
+<!-- ************************************************************* -->
+    <center><h1>Reservations</h1></center>
+
+    <form>
+        <table>
+          <tr>
+            <td><label for="name">Nom :</label></td>
+            <td><input type="text" id="name" name="name"></td>
+          </tr>
+          <tr>
+            <td><label for="prenom">Prénom :</label></td>
+            <td><input type="text" id="prenom" name="prenom"></td>
+          </tr>
+          <tr>
+            <td><label for="phone">Téléphone :</label></td>
+            <td><input type="number" id="phone" name="phone"></td>
+          </tr>
+          <tr>
+            <td><label for="mail">E-mail :</label></td>
+            <td><input type="email" id="mail" name="mail"></td>
+          </tr>
+          <tr>
+            <td><label for="date">Date :</label></td>
+            <td><input type="date" id="date" name="date"></td>
+          </tr>
+          <tr>
+            <td><label for="heure">Heure :</label></td>
+            <td><input type="time" id="heure" name="heure"></td>
+          </tr>
+          <tr>
+            <td><label for="commentaire">Une information particulière :</label></td>
+            <td><input type="text" id="commentaire" name="commentaire"></td>
+          </tr>
+        </table>
+      </form>
 </body>
+
 </html>
