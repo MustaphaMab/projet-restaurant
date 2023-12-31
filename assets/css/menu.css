@@ -3,6 +3,9 @@
   margin: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+/* *********************************** menu navigation ***************************************** */
+
+
 .nav {
   font-size: 130%;
   text-align: center;
@@ -35,11 +38,16 @@
   margin: 3%;
   text-align: left;
 }
-
-.titrePrincipal {
-  text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+/* *********************************************************************************************************** */
+.patesPart,
+.dessertPart,
+.poissonPart,
+.pouletPart {
+  display: flex;
+  justify-content: space-between;
+  
 }
+
 p {
   font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -51,6 +59,17 @@ p {
   display: flex;
   flex-wrap: wrap;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.delicePates {
+  background-color: #9abcf3;
+  margin: 0%;
+  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.pates {
+  margin : 5%;
 }
 .poulet {
   margin: 5%;
@@ -66,31 +85,13 @@ p {
 .poisson {
   margin: 5%;
 }
-
-.imgPizza {
-  border-radius: 50%;
-  width: 30%;
-  border-color: #ffbe33 5% solid;
-  text-align: center;
+.dessert {
+  margin :5%;
 }
+
 .footerPizza {
   display: flex;
   justify-content: space-around;
-}
-.delicePates {
-  background-color: #222831;
-  border: solid black;
-  border-radius: 5%;
-  margin: 3%;
-  padding: 3%;
-  display: block;
-}
-
-.imgPates {
-  border-radius: 50%;
-  width: 30%;
-  border-color: #ffbe33 5% solid;
-  text-align: center;
 }
 
 .footPates {
@@ -102,4 +103,8 @@ p {
   background-color: #222831;
   padding: 3%;
   display: block;
+}
+
+footer {
+  margin-top: 5%;
 }
